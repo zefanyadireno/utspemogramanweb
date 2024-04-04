@@ -10,13 +10,14 @@ a {
 }
 
 .medsos {
-    padding: 5px 0px;
+    padding: 10px 0px;
     background-color: black;
 }
 
 .medsos ul li {
     display: inline-block;
     color: white;
+    word-spacing: 20px;
 }
 
 .container {
@@ -29,7 +30,6 @@ a {
     display: block;
     clear: both;
 }
-
 
 header h1 {
     float: left;
@@ -92,12 +92,12 @@ section {
     padding: 50px 0px;
 }
 
-h3 {
+section h3 {
     text-align: center;
     padding: 20px 0px;
     color: black;
-    font-size: 35px;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
+
 }
 
 .tentang p {
@@ -105,6 +105,7 @@ h3 {
     text-align: center;
     word-spacing: 2px;
     line-height: 15px;
+    margin-bottom: 20px;
 }
 
 .tentang, .kegiatan {
@@ -183,8 +184,36 @@ footer {
     animation: puterin .8s linear infinite;
 }
 
+.label {
+    background-color: #000000;
+}
+
+.label p {
+    color: white;
+    padding: 0px 153px;
+}
+
 @keyframes puterin {
     100% {
         transform: rotate(360deg);
+    }
+}
+
+@media screen and (max-width: 768px){
+    .container{
+        width: 90%;
+    }
+    header h1{
+        text-align: center;
+        float: none;
+    }
+    header ul{
+        text-align: center;
+        float: none;
+    }
+    .box .col-4{
+        width: 100%;
+        float: none;
+        margin-bottom: 20px;
     }
 }
