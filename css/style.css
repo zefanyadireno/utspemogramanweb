@@ -22,4 +22,41 @@ a {
 .container {
     width: 80%;
     margin: 0 auto;
+    border: 1px solid;
+}
+
+.container::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+header {
+    border: 1px solid;
+}
+
+header h1 {
+    border: 1px solid;
+    float: left;
+    padding: 15px 0px;
+    color: black;
+}
+
+header ul {
+    border: 1px solid;
+    float: right;
+}
+
+header ul li {
+    display: inline-block;
+}
+
+header ul li a {
+    padding: 25px 20px;
+    display: inline-block;
+}
+
+header ul li a:hover {
+    background-color: black;
+    color: white;
 }
