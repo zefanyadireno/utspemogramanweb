@@ -92,23 +92,58 @@ section {
     padding: 50px 0px;
 }
 
-section h3 {
+h3 {
     text-align: center;
     padding: 20px 0px;
     color: black;
     font-size: 35px;
-    margin-bottom: 30px;
-}
-
-section h4 {
-    text-align: center;
-    color: black;
-    padding: 25px 0px 5px 0px;
-    font-size: 20px;
+    margin-bottom: 25px;
 }
 
 .tentang p {
+    color: #666;
     text-align: center;
-    color: black;
+    word-spacing: 2px;
     line-height: 15px;
+}
+
+.tentang {
+    padding-bottom: 100px;
+}
+
+.kegiatan {
+    background-color: #f9f9f9;
+}
+
+.box {
+    color: black;
+}
+
+.box:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.box .col-4 {
+    width: 25%;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    float: left;
+}
+
+.icon {
+    width: 70px;
+    height: 70px;
+    border: 1px solid;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 70px;
+    font-size: 30px;
+    margin: 0px auto;
+}
+
+.box .col-4 h4 {
+    margin: 20px 0px;
 }
