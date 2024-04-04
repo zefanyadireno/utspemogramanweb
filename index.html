@@ -6,8 +6,13 @@
     <title>UTS PEMOGRAMAN WEB</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 </head>
 <body>
+    <!--LOADER-->
+   <div class="bg-loader">
+        <div class="loader"></div>
+   </div>
 
     <!--HEADER-->
     <div class="medsos">
@@ -73,5 +78,11 @@
             <small>Copyright &copy; 2024 - UTS Pemograman Web. All Right Reserved.</small>
         </div>
     </footer>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $(".bg-loader").hide();
+        })
+    </script>
 </body>
 </html>
