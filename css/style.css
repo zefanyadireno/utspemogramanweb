@@ -91,3 +91,24 @@ header ul li a:hover {
 section {
     padding: 50px 0px;
 }
+
+section h3 {
+    text-align: center;
+    padding: 20px 0px;
+    color: black;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+section h4 {
+    text-align: center;
+    color: black;
+    padding: 25px 0px 5px 0px;
+    font-size: 20px;
+}
+
+.tentang p {
+    text-align: center;
+    color: black;
+    line-height: 15px;
+}
