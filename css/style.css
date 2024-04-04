@@ -119,6 +119,10 @@ h3 {
     color: black;
 }
 
+.box {
+    color: black;
+}
+
 .box:after {
     content: '';
     display: block;
