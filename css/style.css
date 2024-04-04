@@ -22,7 +22,6 @@ a {
 .container {
     width: 80%;
     margin: 0 auto;
-    border: 1px solid;
 }
 
 .container::after {
@@ -31,19 +30,14 @@ a {
     clear: both;
 }
 
-header {
-    border: 1px solid;
-}
 
 header h1 {
-    border: 1px solid;
     float: left;
     padding: 15px 0px;
     color: black;
 }
 
 header ul {
-    border: 1px solid;
     float: right;
 }
 
@@ -59,4 +53,41 @@ header ul li a {
 header ul li a:hover {
     background-color: black;
     color: white;
+}
+
+.active {
+    background-color: black;
+    color: white;
+}
+
+.banner {
+    height: 60vh;
+    background-image: url('../img/banner.jpeg');
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, .6);
+}
+
+.banner h2 {
+    color: white;
+    z-index: 1;
+    padding: 20px 25px;
+    border: 3px solid white;
+}
+
+section {
+    padding: 50px 0px;
 }
